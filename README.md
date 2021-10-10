@@ -1,31 +1,35 @@
-# Twitter Client Part 1*
+# Twitter Client Part 2*
 
 
-**Twitter Client** is an android app receives tweets from the account using api and is then implemented into the app. 
+**Twitter Client** is an android app receives tweets from the account using api and is then implemented into the app. The user can compose and post the tweet on twitter and would be visible on the app.
 
 Submitted by: **Ruhi Rownak**
 
-Time spent: **10** hours spent in total
+Time spent: **26** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [x] User can sign in to Twitter using OAuth login.
-* [x] User can view the tweets from their home timeline
-	* [x] For each tweet, show the relevant information: the tweet body along with the author's username and name
-	* [x] User should be displayed the relative timestamp for each tweet "8m", "7h"
-* [x] User can refresh tweets timeline by pulling down to refresh (i.e pull-to-refresh)
+* [x] User can compose a new tweet.
+	* [x] User can click a "Compose" icon in the AppBar on the top right
+* [x] User can then enter a new tweet and post this to twitter
+* [x] User is taken back to home timeline with new tweet visible in timeline
+* [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+* [x] While composing a tweet, user can see a character counter with characters remaining for tweet out of 280
 
 The following **optional** features are implemented:
 
-* [x] User can view more tweets as they scroll with infinite pagination
-* [] Improve the user interface and theme the app to feel "twitter branded" 
+* []Improve the user interface and theme the app to feel "twitter branded"
 * [] Links in tweets are clickable and will launch the web browser
-* [] User can see embedded image media within the tweet detail view 
-* [] User can watch embedded video within the tweet
+* [] User can select "reply" from detail view to respond to a tweet
+* [] Move the "Compose" action to a FloatingActionButton instead of on the AppBar.
+* [] Compose activity is replaced with a modal overlay
+* [] Use Parcelable instead of Serializable using the popular Parceler library.
 * [] User can open the twitter app offline and see last loaded tweets
-* [] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
+	* [] Tweets are persisted into sqlite and can be displayed from the local DB
+* [] When a user leaves the compose view without publishing and there is existing text, prompt to save or delete the draft. If saved, the draft should then be persisted to disk and can later be resumed from the compose view.
+* [] Enable your app to receive implicit intents from other apps. When a link is shared from a web browser, it should pre-fill the text and title of the web page when composing a tweet.
 
 ## Video Walkthrough
 
