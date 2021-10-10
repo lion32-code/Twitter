@@ -5,7 +5,7 @@
 
 Submitted by: **Ruhi Rownak**
 
-Time spent: **26** hours spent in total
+Time spent: **24** hours spent in total
 
 ## User Stories
 
