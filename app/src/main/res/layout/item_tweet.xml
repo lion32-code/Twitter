@@ -50,8 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/tvScreenName"
         tools:text="@lion214732434" />
 </RelativeLayout>
