@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='Twitter Walkthrough.gif' title='Flixter Walkthrough' width='' alt='Twitter Walkthrough' />
+<img src='Twitter 2 Walkthrough.gif' title='Flixter Walkthrough' width='' alt='Twitter Walkthrough' />
 
 
 ## Notes
